@@ -1,5 +1,5 @@
 from datetime import datetime
-import system.os
+import os
 
 
 data_atual = datetime.now()
@@ -22,6 +22,7 @@ cartao_debito = float(input("Vendas em CARTÃO DÉBITO: "))
 cartao_credito = float(input("Vendas em CARTÃO CRÉDITO: "))
 cheque = float(input("Vendas em CHEQUE: "))
 despesa = float(input("Totals das DESPESAS: "))
+os.system()
 print("---------------------VALOR--------------------")
 print(f"DINHEIRO       | {dinheiro:.2f}")
 print(f"Cartão Débito  | {cartao_debito:.2f}")
