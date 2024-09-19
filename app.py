@@ -2,7 +2,6 @@ from datetime import datetime
 import os
 import win32print
 import win32api
-import subprocess
 
 data_atual = datetime.now()
 
